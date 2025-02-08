@@ -1,0 +1,19 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# Ignore temporary files
+*.swp
+*.swo
+*.undo
+*.backup
+
+# Ignore LazyVim plugins and runtime
+lazy-lock.json
+lua/lazy-lock.json
+site/
