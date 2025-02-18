@@ -1,0 +1,13 @@
+return {
+  {
+    "nvzone/typr",
+    dependencies = { "nvzone/volt" },
+    cmd = { "Typr", "TyprStats" }, -- Load only when these commands are called
+    opts = { -- Use LazyVim's built-in options instead of manual config function
+      language = "english", -- Typing language
+      min_length = 3, -- Minimum word length
+      max_length = 8, -- Maximum word length
+      word_count = 25, -- Number of words per session
+    },
+  },
+}
